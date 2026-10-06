@@ -1,1 +1,17 @@
 ACTIVITY #1
+# DIAGNOSTIC-ACTIVITY
+public class Main{
+    public static void main(String[] args){
+        String name = "Nikki";
+        System.out.println("Enter your name");
+        int age = 19;
+        System.out.println("How old are you?");
+        String address = "199 D.Macapagal";
+        System.out.println("Where you from?");
+        double weight = 39.67;
+        System.out.println("What is your weight?");
+        double height = 149.0;
+        System.out.println("What is your heigh?");
+        System.out.println("My name is "+ name +", I am "+ age +" years old. I live at "+ address +" my weight is "+ weight +" and my height "+ height +" cm");
+    }
+}

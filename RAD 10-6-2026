@@ -15,3 +15,17 @@ public class Main{
         System.out.println("My name is "+ name +", I am "+ age +" years old. I live at "+ address +" my weight is "+ weight +" and my height "+ height +" cm");
     }
 }
+
+ACTIVITY #3
+public class Countdown {
+        public static void main(String[] args) {
+                int i = 50;
+
+                while (i >= 1) {
+                        System.out.println(i);
+                        i--;
+                }
+
+                System.out.println("Litfoff!")
+        };
+}

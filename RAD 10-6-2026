@@ -16,7 +16,32 @@ public class Main{
     }
 }
 
-ACTIVITY #3
+// A#3
+import java.util.Scanner;
+
+public class diagnosticAcitivity {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = input.nextInt();
+
+        for (int i = 1; i <= 30; i++) {
+            if (1 == 7) {
+                continue;              // skip 7
+            }
+            if (i % 30 == 0) {         // divisible by 30
+                System.out.println(i);
+            }
+            if (i == 30) {
+                break;                 // stop at 30
+            }
+        }
+        input.close();
+    }
+} 
+
+
+ACTIVITY #4
 public class Countdown {
         public static void main(String[] args) {
                 int i = 50;
